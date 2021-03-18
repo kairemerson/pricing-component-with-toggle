@@ -176,3 +176,34 @@ input:checked + .slider::before{
     color: white;
     border-color: white;
 }
+
+@media screen and (max-width: 768px){
+    body{
+        justify-content: stretch;
+    }
+    .toggle-container{
+        margin-top: 2em;
+    }
+    .slider:hover{
+        opacity: 1;
+    }
+    .cards{
+        gap: 2em;
+        margin-bottom: 2em;
+    }
+    .card-two{
+        transform: scale(1);
+    }
+    .bg-top img{
+        max-width: 200px;
+    }
+    .bg-bottom{
+        display: none;
+    }
+    .price {
+        font-size: 2.8rem;
+    }
+    .benefits li{
+        font-size: 0.75rem;
+    }
+}
